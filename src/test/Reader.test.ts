@@ -78,5 +78,11 @@ describe('Reader Test', () => {
             "|_||_||_||_||_||_||_||_||_|" +
             " _| _| _| _| _| _| _| _| _|";
         expect(Reader.readEntry(entry)).to.equal('999999999');
+
+        entry =
+            "    _  _     _  _  _  _  _ " +
+            "  | _| _||_||_ |_   ||_||_|" +
+            "  ||_  _|  | _||_|  ||_| _|"
+        expect(Reader.readEntry(entry)).to.equal('123456789');
     });
 });
