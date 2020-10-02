@@ -1,0 +1,27 @@
+{
+  "name": "bankocr",
+  "version": "1.0.0",
+  "description": "BankOCR Coding Kata on TypeScript",
+  "scripts": {
+    "test": "mocha --reporter spec -r ts-node/register 'src/**/*.test.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lorenzo-milesi/BankOCR-Kata.git"
+  },
+  "author": "Lorenzo Milesi <lorenzo.milesi@live.fr>",
+  "bugs": {
+    "url": "https://github.com/lorenzo-milesi/BankOCR-Kata/issues"
+  },
+  "homepage": "https://github.com/lorenzo-milesi/BankOCR-Kata#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.12",
+    "@types/mocha": "^8.0.3",
+    "chai": "^4.2.0",
+    "esm": "^3.2.25",
+    "mocha": "^8.1.3",
+    "ts-loader": "^8.0.4",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
+}
