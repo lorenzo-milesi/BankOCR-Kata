@@ -5,8 +5,8 @@ export const ZERO =
 
 export const ONE =
     "   " +
-    " | " +
-    " | ";
+    "  |" +
+    "  |";
 
 export const TWO =
     " _ " +
